@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+		monospace;
+	width: 300px;
+	border-radius: 20px;
+	position: relative;
+}
+
+.button-67 {
+	font-size: 11px;
+	padding: 10px 30px;
+	background-color: #5438f8;
+	font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+		monospace;
+	color: white;
+	border-radius: 18px;
+	border: none;
+	cursor: pointer;
+	margin-top: 5px;
+	box-shadow: 0px 0px 5px 0.5px #412dfc;
+}
+
+.button-67:hover {
+	background: #7861fa;
+}
+
+@media (min-width: 768px) {
+	.button-67 {
+		padding: 24px;
+	}
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 11px;
+	color: rgb(83, 86, 86);
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	font-size: 16.5px;
+}
+
+nav {
+	width: 100%;
+	padding: 10px;
+	background-color: #5438f8;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	gap: 10px;
+}
+
+.icon {
+	margin-left: 10px;
+}
+
+.loader {
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.hidden {
+	display: none;
+}
